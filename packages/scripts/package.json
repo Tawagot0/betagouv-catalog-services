@@ -7,7 +7,10 @@
     "eslint": "^7.23.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-turbo": "latest"
+    "eslint-config-turbo": "latest",
+    "vitest": "^0.27.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.20.2"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
