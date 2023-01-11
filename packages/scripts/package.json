@@ -8,9 +8,6 @@
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-turbo": "latest",
-    "fastify": "^4.11.0",
-    "fastify-cors": "^6.1.0",
-    "fastify-static": "^4.7.0",
     "vitest": "^0.27.0",
     "xlsx": "^0.18.5",
     "zod": "^3.20.2"
