@@ -10,13 +10,12 @@ import {
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 
-import React, { ReactNode, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import styles from "../styles/Card.module.css";
 import axios from "axios";
-import Fonts from "./Fonts";
+
 import localFont from "@next/font/local";
-import Cookies from "./Cookies";
 
 interface CardProps {
   miniature: string;
