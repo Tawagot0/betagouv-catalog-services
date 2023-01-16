@@ -17,23 +17,18 @@ import axios from "axios";
 
 import localFont from "@next/font/local";
 
-interface CardProps {
-  miniature: string;
-  version: string;
-  description: string;
-  lien: string | null;
-  titre: string;
-}
-
 const marianne = localFont({ src: "../fonts/Marianne-Regular.woff" });
-const iconESD = localFont({ src: "../fonts/icon-esd.ttf" });
+
+const apiEndpoint = process.env.NEXT_PUBLIC_API_ENDPOINT
+  ? process.env.NEXT_PUBLIC_API_ENDPOINT + "services"
+  : "http://localhost:7000/services";
 
 export default function Web() {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
     async function fetchData() {
-      const response = await axios.get("http://127.0.0.1:7000/services");
+      const response = await axios.get(apiEndpoint);
       setData(response.data);
     }
     fetchData();
