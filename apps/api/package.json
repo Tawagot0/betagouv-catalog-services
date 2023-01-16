@@ -1,18 +1,22 @@
 {
   "name": "api",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "server.ts",
   "license": "MIT",
   "dependencies": {
+    "@fastify/cors": "^8.2.0",
     "eslint": "^7.23.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-turbo": "latest",
     "fastify": "^4.11.0",
-    "fastify-cors": "^6.1.0",
     "fastify-static": "^4.7.0"
   },
+  "scripts": {
+    "dev": "ts-node server.ts"
+  },
   "devDependencies": {
+    "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
   },
   "publishConfig": {
