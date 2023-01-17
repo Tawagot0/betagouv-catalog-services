@@ -32,7 +32,7 @@ async function readJsonFile(path: string): Promise<any> {
 export default async function (
   instance: FastifyInstance,
   opts: FastifyServerOptions,
-  done
+  done: any
 ) {
   instance.get("/services", async (req: FastifyRequest, res: FastifyReply) => {
     const path = join(__dirname, "ressources", "services.json");
