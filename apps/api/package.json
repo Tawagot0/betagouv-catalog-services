@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "dev": "ts-node server.ts"
+    "start": "node public/serverless.js",
+    "dev": "node public/server.js"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
