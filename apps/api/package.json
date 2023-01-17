@@ -14,7 +14,8 @@
     "vercel": "^28.12.4"
   },
   "scripts": {
-    "vercel": "vercel dev"
+    "vercel": "vercel dev",
+    "dev": "ts-node server_local.ts"
   },
   "devDependencies": {
     "@vercel/node": "^2.8.11",
