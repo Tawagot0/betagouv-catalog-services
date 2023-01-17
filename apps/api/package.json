@@ -10,7 +10,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-turbo": "latest",
     "fastify": "^4.11.0",
-    "fastify-static": "^4.7.0"
+    "fastify-static": "^4.7.0",
+    "vercel": "^28.12.4"
   },
   "scripts": {
     "vercel": "vercel dev"

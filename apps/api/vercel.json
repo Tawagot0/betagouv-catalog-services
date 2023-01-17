@@ -1,8 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "github": { "silent": true, "autoJobCancelation": true },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "serverless.ts"
+      "destination": "/api/serverless.ts"
     }
   ]
 }
