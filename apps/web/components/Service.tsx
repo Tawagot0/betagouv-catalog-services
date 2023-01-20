@@ -4,10 +4,8 @@ import {
   Text,
   Image,
   Center,
-  Divider,
   Stack,
 } from "@chakra-ui/react";
-import styles from "../styles/Card.module.css";
 
 interface CardProps {
   miniature: string;
