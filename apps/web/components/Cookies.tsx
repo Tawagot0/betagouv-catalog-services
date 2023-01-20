@@ -12,7 +12,7 @@ function Cookies() {
       <Center w={"100%"}>
         <Text color={"#fff"} fontSize={"sm"} align="center">
           Les cookies assurent le bon fonctionnement de nos services. En
-          utilisant ces derniers, vous acceptez l'utilisation des cookies.{" "}
+          utilisant ces derniers, vous acceptez l&apos;utilisation des cookies.{" "}
         </Text>
       </Center>
     </Flex>
