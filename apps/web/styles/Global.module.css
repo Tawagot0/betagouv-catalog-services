@@ -1,19 +1,7 @@
-.container {
-  background-color: #f7f7f7;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .divider {
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
-}
-
-.display {
-  padding-left: 2rem;
-  border-left: 4px solid #0055b0;
-  margin-top: 1rem;
 }
 
 .link,
